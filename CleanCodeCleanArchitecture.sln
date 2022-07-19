@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{276E476B-A797-4236-A79D-0D1CD5A50FC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{49A6F858-7D2C-4022-A40B-5B5F2D3ADA73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{80CB49CD-C99F-4004-A2E9-E0D53D0819A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{87AE635B-A4F4-40B2-9DC7-756E55D7D0DD}"
+	ProjectSection(SolutionItems) = preProject
+		docs\images\javascriptNamingClassesConvention.JPG = docs\images\javascriptNamingClassesConvention.JPG
+		docs\images\sqlNamingClassesConvention.JPG = docs\images\sqlNamingClassesConvention.JPG
+		docs\images\javaNamingClassesConvention.JPG = docs\images\javaNamingClassesConvention.JPG
+		docs\images\cSharpNamingClassesConvention.JPG = docs\images\cSharpNamingClassesConvention.JPG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AE635B-A4F4-40B2-9DC7-756E55D7D0DD} = {80CB49CD-C99F-4004-A2E9-E0D53D0819A1}
+	EndGlobalSection
+EndGlobal
