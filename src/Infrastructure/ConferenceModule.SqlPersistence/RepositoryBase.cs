@@ -62,5 +62,6 @@ public class RepositoryBase<T> : IRepositoryBase<T> where T : class {
         if (entity is ConferenceDetail conferenceDetail) {
             conferenceDetail.AddEvent(new ConferenceDetailEvent(conferenceDetail));
         }
+        
     }
 }

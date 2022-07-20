@@ -45,6 +45,7 @@ public class UpdateConferenceDetailCommandHandler : IRequestHandler<UpdateConfer
 
         conferenceDetail = await _repository.UpdateAsync(conferenceDetail, cancellationToken);
 
+        
         return conferenceDetail;
     }
 }
