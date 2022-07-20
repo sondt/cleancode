@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="10.0.1"/>
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.3"/>
+        <PackageReference Include="StackExchange.Redis" Version="2.5.43"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0"/>
+        <PackageReference Include="Serilog.AspNetCore" Version="5.0.0"/>
+        <PackageReference Include="Serilog.Enrichers.Context" Version="4.2.0"/>
+        <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0"/>
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1"/>
+        <PackageReference Include="Serilog.Sinks.Seq" Version="5.1.1"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Core\ConferenceModule.Application\ConferenceModule.Application.csproj"/>
+        <ProjectReference Include="..\..\Infrastructure\ConferenceModule.SqlPersistence\ConferenceModule.SqlPersistence.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Update="Settings\AccountMessage.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="Settings\ConferenceMessage.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="Settings\ConferencePermissionMessage.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+
+</Project>

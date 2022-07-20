@@ -1,0 +1,9 @@
+﻿{
+  "AccountMessage": {
+    "InvalidLogin": "Email hoặc mật khẩu không đúng",
+    "InvalidEmail": "Email không đúng định dạng",
+    "ExistsEmail": "Email đã tồn tại",
+    "AccountLocked": "Tài khoản đã bị khóa",
+    "WaitingVerify": "Tài khoản chưa được kích hoạt"
+  }
+}

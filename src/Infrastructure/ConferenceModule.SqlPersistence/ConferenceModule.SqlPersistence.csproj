@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0"/>
+        <PackageReference Include="Serilog" Version="2.10.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Core\ConferenceModule.Application\ConferenceModule.Application.csproj"/>
+        <ProjectReference Include="..\..\Core\ConferenceModule.Domain\ConferenceModule.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>
