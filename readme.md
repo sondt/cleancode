@@ -74,8 +74,35 @@ Bill Gates said: "Measuring programming progress by lines of code is like measur
 <img src="docs/images/javaNamingClassesConvention.JPG" alt="Java naming convention">
 
 ### Writing clean methods
-
+**4 lý do để tạo ra 1 method mới**
+- Tránh lặp lại code
+- Loại bỏ thụt lề quá mức
+- Giảm thời gian tồn tại của biến
+- Thực hiện một hành động cụ thể
 ### Writing clean classes
-
+Các class như là headings của một cuốn sách
+<img src="docs/images/classAsHeadingsABook.png" alt="Class like book headings">
+**Lý do để tạo 1 class mới:**
+- Mô hình hóa 1 đối tượng (New Concept): những đối tượng này có thể mô hình hóa các khái niệm cụ thệ hoặc trừu trượng
+- Chia tách các lớp riêng biệt (Low Cohesion): Nếu các lớp ít liên quan đến nhau thì đó là dấu hiệu cho thấy có sự gắn kết thấp, vì thế cần được chia thành các lớp riêng biệt để hướng tới nhiều mục tiêu hơn
+- Thúc đẩy tái sử dụng (Promote Reuse: Small, targeted): , ngay cả 1 một đoạn mã là 1 phần của lớp lớn hơn hãy tách ra thành 1 method và đặt nó vào một lớp riêng nếu nó hữu ích cho chương trình
+- Giảm độ phức tạp của lớp (Reduce complexity):
+- Xác định một nhóm dữ liệu
 ### Writing clean comments
+Các comments là cần thiết và hữu ích cho dự án của bạn. 
+- Các comment nên tránh
 
+- Sử dụng các comments hữu ích
+## Clean Architecture
+Clean Architecture là một tập hợp các pattern, practices và Principles để tạo ra một kiến trúc phần mềm hiện đại đơn giản, dễ hiểu, linh hoạt, kiểm thử và dễ bảo trì
+<img src="docs/images/dc2.png" alt="Class like book headings">
+
+<img src="docs/images/levelsOfAA.png" alt="Level of A A">
+<img src="docs/images/messyVsCleanArchitecture.png" alt="messyVsCleanArchitecture">
+
+What's bad architecture?
+- Phức tạp (Complex)
+- Rời rạc, không có sự gắn kết (Incoherent)
+- Cứng nhắc, không thể tùy biến (Rigid)
+- Dễ đứt gãy (Brittle): Sửa một đoạn mã ở một lớp có thể
+- Không thể hay rất khó để maintain (Lấy ví dụ 1 lớp của VAS)
