@@ -92,7 +92,24 @@ Các class như là headings của một cuốn sách
 - Xác định một nhóm dữ liệu
 ### Writing clean comments
 Các comments là cần thiết và hữu ích cho dự án của bạn. 
-- Các comment nên tránh
+**Các comment nên tránh**
+- Dư thừa
+<img src="docs/images/c1.jpg" alt="Dirty comments">
+- Truyền tải ý định
+<img src="docs/images/c2.jpg" alt="Dirty comments">
+- Lời xin lỗi
+<img src="docs/images/c3.jpg" alt="Dirty comments">
+- Cảnh báo
+<img src="docs/images/c4.jpg" alt="Dirty comments">
+- Zombie comments
+<img src="docs/images/c5.jpg" alt="Dirty comments">
+- Sử dụng comments để break code
+- Brace tracker comments
+  <img src="docs/images/c6.jpg" alt="Dirty comments">
+#### Clean comments
+- Summary
+- Documentation and references
+- Các cấu hình ít được sử dụng 
 
 - Sử dụng các comments hữu ích
 ## Clean Architecture
