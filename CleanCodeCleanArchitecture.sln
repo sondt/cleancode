@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{87AE63
 		docs\images\cSharpNamingClassesConvention.JPG = docs\images\cSharpNamingClassesConvention.JPG
 		docs\images\dc2.PNG = docs\images\dc2.PNG
 		docs\images\classAsHeadingsABook.PNG = docs\images\classAsHeadingsABook.PNG
+		docs\images\messyVsCleanArchitecture.PNG = docs\images\messyVsCleanArchitecture.PNG
+		docs\images\levelsOfAA.PNG = docs\images\levelsOfAA.PNG
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F945C8BC-895E-4AFF-AEE3-8AD08819F188}"
