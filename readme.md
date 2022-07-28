@@ -15,10 +15,9 @@
    2. [Tại sao cần đầu tư cho Clean Architecture?](#Tại-sao-cần-đầu-tư-cho-Clean-Architecture)
    3. [Kiến trúc của Clean Architecture](#Kiến-trúc-của-Clean-Architecture)
 
-<img src="https://media.doisongphapluat.com/thumb_x1280x857/2020/05/28/Maria_Ozawa.jpg" alt="Clean code like beautiful girl" width="100%" />
+<img src="docs/images/Anne-Hathaway.jpg" alt="TheCleanArchitecture">
 Clean code like beautiful girl 
-
-<img src="http://idtco.com.vn/images/IDTCO-DESIGNS/BIETTHU/biet-thu-dep-21/biet-thu-dep-21.jpg" alt="Clean architecture like villa" width="100%" />
+<img src="docs/images/biet-thu-dep-21.jpg" alt="TheCleanArchitecture">
 Clean architecture like villa
 
 ## Clean Code
@@ -39,7 +38,7 @@ Các bạn đang truyền tải cho các developer khác về TÁC PHẨM của 
 
 Tránh sử dụng một ngôn ngữ này để viết một ngôn ngữ khác thông qua chuỗi ký tự
 <img src="https://mariagraziamerlo.files.wordpress.com/2015/12/dirty_code.png?w=636">
-3. Signal to Noise Ratio
+2. Signal to Noise Ratio
 
 Tín hiệu code tuân thủ theo nguyên tắc TED (**T**erse - Ngắn gọn; **E**xpressive - Hàm ý; **D**oes one thing - Làm một việc cụ thể)
 
@@ -59,9 +58,7 @@ Nhận dạng **Noise**:
    - Định dạng dễ đọc để tối ưu hóa trải nghiệm người đọc
    - Ưu tiên mã tự diễn đạt hơn comments
 
-#### Don't repeat yourself (DRY)
-Bill Gates said: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
-<img src="https://pbs.twimg.com/media/EufwYG_U4AUUEr1.jpg" alt="Bill Gates">
+
 ### Naming convention
 #### Tại sao đặt tên lại quan trọng
 Đặt tên có tác động rất lớn tới khả năng đọc mã của bạn, vì thế các bạn cần phải có một cách để đặt có ý nghĩa, tuân thủ theo các nguyên tắc đặt tên của mỗi ngôn ngữ lập trình (C#, Js ...)
